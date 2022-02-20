@@ -11,7 +11,7 @@ const VR = () => {
             </div>
 
             <div className='talk-hub__VR-content'>
-                <h4>enjoy your conversation with a more realistic approach</h4>
+                <h4>Enjoy your conversation with a more realistic approach</h4>
 
                 <h1 className='gradient__text'> First Text App with in build VR chat</h1>
 
