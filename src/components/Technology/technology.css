@@ -62,7 +62,7 @@
 
 @media screen and ( max-width: 950px){
     .talk-hub__technology{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .talk-hub__technology-image{
         margin: 1rem 0;
