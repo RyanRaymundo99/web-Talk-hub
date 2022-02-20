@@ -5,12 +5,12 @@ import VRimg from '../../assets/VR.svg'
 
 const VR = () => {
   return (
-    <div className='gpt3__possibility section__padding' id='VR'>
-            <div className='gpt3__possibility-image'>
+    <div className='talk-hub__VR section__padding' id='VR'>
+            <div className='talk-hub__VR-image'>
                 <img src={VRimg}/>
             </div>
 
-            <div className='gpt3__possibility-content'>
+            <div className='talk-hub__VR-content'>
                 <h4>enjoy your conversation with a more realistic approach</h4>
 
                 <h1 className='gradient__text'> First Text App with in build VR chat</h1>

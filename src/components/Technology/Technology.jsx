@@ -4,9 +4,9 @@ import technology from '../../assets/technology.svg';
 
 const Technology = () => {
   return (
-    <div className='gpt3__possibility section__padding' id='Technology'>
+    <div className='talk-hub__technology section__padding' id='Technology'>
 
-            <div className='gpt3__possibility-content'>
+            <div className='talk-hub__technology-content'>
                 <h4>TalkHub is the New Text app with ease-to-use interface</h4>
 
                 <h1 className='gradient__text'> Seggs makes it easy and fun to stay close to your favorite people.</h1>
@@ -16,7 +16,7 @@ const Technology = () => {
                 <h4><a href="">Request Early access to Get started</a></h4>
             </div>
 
-            <div className='gpt3__possibility-image'>
+            <div className='talk-hub__technology-image'>
                 <img src={technology} />
             </div>
         </div>

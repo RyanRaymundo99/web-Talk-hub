@@ -16,14 +16,14 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
 
   return (
-      <div className='gpt3__navbar'>
+      <div className='talk-hub__navbar'>
 
-          <div className='gpt3__navbar-links'>
-              <div className='gpt3__navbar-links_logo'>
+          <div className='talk-hub__navbar-links'>
+              <div className='talk-hub__navbar-links_logo'>
                   <img src={logo} alt="logo" />
               </div>
 
-              <div className='gpt3__navbar-links_container'>
+              <div className='talk-hub__navbar-links_container'>
                  <Menu />
               </div>
           </div>
@@ -32,14 +32,14 @@ const Navbar = () => {
             <p><a href="">Download</a></p>
           </div>
 
-          <div className='gpt3__navbar-menu'>
+          <div className='talk-hub__navbar-menu'>
               {toggleMenu
                   ?<RiCloseLine color="#fff" size="27" onClick={() => setToggleMenu(false)}/>
                   :<RiMenu3Line color="#fff" size="27" onClick={() => setToggleMenu(true)}/>
               }
               {toggleMenu && (
-                  <div className='gpt3__navbar-menu_container scale-up-center'>
-                      <div className='gpt3__navbar-menu_container-links'>
+                  <div className='talk-hub__navbar-menu_container scale-up-center'>
+                      <div className='talk-hub__navbar-menu_container-links'>
                           <Menu />
                       </div>
                   </div>

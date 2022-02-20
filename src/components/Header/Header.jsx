@@ -4,12 +4,12 @@ import Chat from '../../assets/Chat.svg'
 
 const Header = () => {
   return (
-    <div className='gpt3__possibility' id='Chat'>
-    <div className='gpt3__possibility-image'>
+    <div className='talk-hub__header' id='Chat'>
+    <div className='talk-hub__header-image'>
         <img src={Chat}/>
     </div>
 
-    <div className='gpt3__possibility-content'>
+    <div className='talk-hub__header-content'>
         <h4>TalkHub is the New Text app
         with ease-to-use interface</h4>
 

@@ -1,4 +1,4 @@
-.gpt3__navbar {
+.talk-hub__navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,24 +6,24 @@
     padding: 1rem 6rem;
 }
 
-.gpt3__navbar-links {
+.talk-hub__navbar-links {
     flex: 1;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.gpt3__navbar-links_logo {
+.talk-hub__navbar-links_logo {
     margin-right: 10rem;
 }
 
-.gpt3__navbar-links_logo img {
+.talk-hub__navbar-links_logo img {
     width: 60px;
     height: 60px;
     padding-top: 10px;
 }
 
-.gpt3__navbar-links_container {
+.talk-hub__navbar-links_container {
     display: flex;
     flex-direction: row;
 }
@@ -36,9 +36,9 @@
 }
 
 
-.gpt3__navbar-links_container p,
+.talk-hub__navbar-links_container p,
 .download_button p,
-.gpt3__navbar-menu_container p {
+.talk-hub__navbar-menu_container p {
     color: #fff;
     font-family: var(--font-family);
     font-weight: 500;
@@ -50,11 +50,11 @@
     cursor: pointer;
 }
 
-.gpt3__navbar-links_container p:hover {
+.talk-hub__navbar-links_container p:hover {
     border-bottom: 1px solid white;
 }
 
-.gpt3__navbar-menu_container button {
+.talk-hub__navbar-menu_container button {
     padding: 0.5rem 1rem;
     color: #fff;
     background: #FF4820;
@@ -69,18 +69,18 @@
 }
 
 
-.gpt3__navbar-menu {
+.talk-hub__navbar-menu {
     margin-left: 1rem;
 
     display: none;
     position: relative;
 }
 
-.gpt3__navbar-menu svg {
+.talk-hub__navbar-menu svg {
     cursor: pointer;
 }
 
-.gpt3__navbar-menu_container {
+.talk-hub__navbar-menu_container {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -99,34 +99,34 @@
 
 }
 
-.gpt3__navbar-menu_container p {
+.talk-hub__navbar-menu_container p {
     margin: 1rem 0;
 }
 
-.gpt3__navbar-menu_container-links-sign {
+.talk-hub__navbar-menu_container-links-sign {
     display: none;
 }
 
 @media screen and (max-width: 1050px) {
-    .gpt3__navbar-links_container {
+    .talk-hub__navbar-links_container {
         display: none;
     }
 
-    .gpt3__navbar-links_logo {
+    .talk-hub__navbar-links_logo {
         margin-right: 10rem;
     }
 
-    .gpt3__navbar-menu {
+    .talk-hub__navbar-menu {
         display: flex;
     }
 
-    .gpt3__navbar-menu_container-links-sign {
+    .talk-hub__navbar-menu_container-links-sign {
         display: none;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .gpt3__navbar {
+    .talk-hub__navbar {
         padding: 2rem 4rem;
     }
     .download_button {
@@ -135,7 +135,7 @@
 }
 
 @media screen and (max-width: 550px) {
-    .gpt3__navbar {
+    .talk-hub__navbar {
         padding: 2rem;
     }
 
@@ -143,7 +143,7 @@
         display: none;
     }
 
-    .gpt3__navbar-menu_container {
+    .talk-hub__navbar-menu_container {
         top: 20px;
     }
 }

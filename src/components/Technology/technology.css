@@ -1,10 +1,10 @@
-.gpt3__possibility
+.talk-hub__technology
 {
     display: flex;
     flex-direction: row;
 }
 
-.gpt3__possibility-image
+.talk-hub__technology-image
 {
     flex: 1;
     display: flex;
@@ -14,14 +14,14 @@
     margin-right: 2rem;
 }
 
-.gpt3__possibility-image img
+.talk-hub__technology-image img
 {
     width: 100%;
     height: 100%;
     padding-top: 2rem;
 }
 
-.gpt3__possibility-content
+.talk-hub__technology-content
 {
     flex: 1;
     display: flex;
@@ -30,7 +30,7 @@
     align-items: flex-start;
 }
 
-.gpt3__possibility-content h4
+.talk-hub__technology-content h4
 {
     font-family: var(--font-family);
     font-weight: 500;
@@ -38,11 +38,11 @@
     line-height: 30px;
     color: var(--color-text);
 }
-.gpt3__possibility-content h4:last-child
+.talk-hub__technology-content h4:last-child
 {
     color: var(--color-subtext);
 }
-.gpt3__possibility-content h1
+.talk-hub__technology-content h1
 {
     font-family: var(--font-family);
     font-weight: 800;
@@ -50,7 +50,7 @@
     line-height: 45px;
     margin: 1rem 0;
 }
-.gpt3__possibility-content p
+.talk-hub__technology-content p
 {
     font-family: var(--font-family);
     font-size: 16px;
@@ -61,13 +61,13 @@
 }
 
 @media screen and ( max-width: 950px){
-    .gpt3__possibility{
+    .talk-hub__technology{
         flex-direction: column;
     }
-    .gpt3__possibility-image{
+    .talk-hub__technology-image{
         margin: 1rem 0;
     }
-    .gpt3__possibility-content{
+    .talk-hub__technology-content{
         margin-top: 2rem;
     }
 }
