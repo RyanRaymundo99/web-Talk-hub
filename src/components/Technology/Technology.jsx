@@ -9,7 +9,7 @@ const Technology = () => {
             <div className='talk-hub__technology-content'>
                 <h4>TalkHub is the New Text app with ease-to-use interface</h4>
 
-                <h1 className='gradient__text'> Seggs makes it easy and fun to stay close to your favorite people.</h1>
+                <h1 className='gradient__text'> TalkHub makes it easy and fun to stay close to your favorite friends.</h1>
 
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt perspiciatis quis magni quam architecto consectetur autem sunt.</p>
 
