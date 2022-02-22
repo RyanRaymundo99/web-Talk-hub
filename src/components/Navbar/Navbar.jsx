@@ -36,8 +36,8 @@ const Navbar = () => {
 
           <div className='talk-hub__navbar-menu'>
               {toggleMenu
-                  ?<RiCloseLine color="#fff" size="27" onClick={() => setToggleMenu(false)}/>
-                  :<RiMenu3Line color="#fff" size="27" onClick={() => setToggleMenu(true)}/>
+                  ?<RiCloseLine color="#b520ff" size="27" onClick={() => setToggleMenu(false)}/>
+                  :<RiMenu3Line color="#b520ff" size="27" onClick={() => setToggleMenu(true)}/>
               }
               {toggleMenu && (
                   <div className='talk-hub__navbar-menu_container scale-up-center'>
