@@ -62,7 +62,7 @@
 }
 
 .header_button {
-    background-color: #b520ff;
+    background-color: var(--color-button);
     color: white;
     padding: 5px;
     border-radius: 5px;

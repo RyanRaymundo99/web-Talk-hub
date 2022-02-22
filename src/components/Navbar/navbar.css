@@ -44,7 +44,7 @@
 
 .download_button {
     padding-top: 4px;
-    background-color: #b520ff;
+    background-color: var(--color-button);
     height: 33px;
     border-radius: 5px;
 }
