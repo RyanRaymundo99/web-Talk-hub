@@ -11,11 +11,18 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    color: black;
 }
+
+.talk-hub__navbar-links a {
+    color: black;
+  }
 
 .talk-hub__navbar-links_logo {
     margin-right: 10rem;
+    line-height: 30px;
 }
+
 
 .talk-hub__navbar-links_logo img {
     width: 60px;
@@ -30,7 +37,7 @@
 
 .download_button {
     padding-top: 4px;
-    background-color: #FF4820;
+    background-color: #b520ff;
     height: 33px;
     border-radius: 5px;
 }

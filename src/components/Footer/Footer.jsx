@@ -7,9 +7,6 @@ const Footer = () => {
     <div className="talk-hub__footer section__padding">
   
     <div className="talk-hub__footer-links">
-      <div className="talk-hub__footer-links_logo">
-        <img src={logo} alt="gpt3_logo" />
-      </div>
       <div className="talk-hub__footer-links_div">
         <h4>Links</h4>
         <p>Overons</p>
