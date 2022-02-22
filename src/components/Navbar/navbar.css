@@ -15,6 +15,14 @@
 
 .talk-hub__navbar-links_logo {
     margin-right: 10rem;
+    line-height: 30px;
+}
+
+.talk-hub__navbar-links_logo h1 {
+    color: white;
+
+    font-family: var(--font-family) ;
+    font-size: 20px;
 }
 
 .talk-hub__navbar-links_logo img {

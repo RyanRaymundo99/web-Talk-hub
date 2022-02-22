@@ -21,11 +21,13 @@ const Navbar = () => {
           <div className='talk-hub__navbar-links'>
               <div className='talk-hub__navbar-links_logo'>
                   <img src={logo} alt="logo" />
+                  <h1>talkHub</h1>
               </div>
 
               <div className='talk-hub__navbar-links_container'>
                  <Menu />
               </div>
+              
           </div>
 
           <div className='download_button'>
