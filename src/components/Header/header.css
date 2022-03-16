@@ -2,7 +2,7 @@
 {
     display: flex;
     flex-direction: row;
-    padding: 2px 6rem 4rem 6rem;
+    padding: 2px 1rem 3rem 2rem;
 
 }
 
@@ -75,7 +75,7 @@
 @media screen and ( max-width: 950px){
     .talk-hub__header{
         flex-direction: column;
-        padding: 4rem;
+        padding: 1rem;
     }
     .talk-hub__header-image{
         margin: 0rem 0;
@@ -87,7 +87,7 @@
 
 @media screen and (max-width: 550px) {
     .talk-hub__header {
-      padding: 4rem 2rem;
+      padding: 0 2rem;
     }
   
   }
