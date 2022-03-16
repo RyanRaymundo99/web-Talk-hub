@@ -4,10 +4,9 @@ TalkHub is my first website page coded and designed by me. It has a simple and m
 
 ## Preview
 
-
-![Screenshot (57)](https://user-images.githubusercontent.com/90113061/158674923-2850ea00-b858-4c1b-a07e-c6773d8a50da.png)
-
 ![20220316_154411](https://user-images.githubusercontent.com/90113061/158676436-e1aaa35b-0929-4211-a240-58e3363f71ee.png)
+
+![Screenshot (58)](https://user-images.githubusercontent.com/90113061/158676584-90c75fde-6073-4622-9adc-172726153a5b.png)
 
 ![Screenshot (59)](https://user-images.githubusercontent.com/90113061/158674990-f63b61a6-3cc0-43a5-94ea-31bcabe549ff.png)
 
